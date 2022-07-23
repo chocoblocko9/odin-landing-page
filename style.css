@@ -15,6 +15,15 @@ ul {
     gap: 20px;
 }
 
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1F2937;
+}
+
 .hero {
     display: flex;
     flex: auto;
@@ -80,13 +89,10 @@ ul {
     color: #F9FAF8;
     border-radius: 5px;
     border-style: none;
-    padding: 5px 15px;
     font: 600;
     width: 100px;
-}
-
-.container .button {
     margin-top: 10px;
+    padding: 5px 15px;
 }
 
 .information .header {
@@ -126,12 +132,6 @@ ul {
     height: 613px;
 }
 
-a {
-    text-decoration: none;
-    color: #1F2937;
-    font-size: 36px;
-}
-
 .quote {
     display: flex;
     background-color: #E5E7EB;
@@ -158,9 +158,49 @@ a {
     height: 50px;
 }
 
-.body .button {
-    border: 2px solid #F9FAF8;
-    border-radius: 5px;
+.call .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px 100px;
+    margin: 100px 200px;
+    color: #F9FAF8;
 }
 
-.body
+.body .button {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    box-sizing: content-box;
+    width: 70px;
+    height: 15px;
+    padding: 5px 15px;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.call .text .header {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.info .subtext {
+    margin-top: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+    color: #F9FAF8;
+}
+
+.quote .text{
+    font-size: 36px;
+}
