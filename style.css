@@ -2,3 +2,33 @@
     max-width: 512px;
     max-height: 512px;
 }
+
+.main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.top {
+    background-color: #1f2937;
+}
+
+.header .list {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero .subtext {
+    color: #F9FAF8;
+}
+
+.button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+}
