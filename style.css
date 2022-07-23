@@ -26,7 +26,7 @@ ul {
     width: 400px;
 }
 
-.header {
+.top .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -52,6 +52,8 @@ ul {
 .top {
     background-color: #1f2937;
     padding: 10px 200px 50px;
+    box-sizing: border-box;
+    height: 613px;
 }
 
 .header .list {
@@ -67,6 +69,7 @@ ul {
 
 .hero .subtext {
     color: #F9FAF8;
+    margin: 0;
     margin-top: 5px;
 }
 
@@ -76,10 +79,47 @@ ul {
     border-radius: 5px;
     border-style: none;
     padding: 5px 15px;
-    font-weight: 600;
+    font: 600;
     width: 100px;
 }
 
 .container .button {
     margin-top: 10px;
+}
+
+.information .header {
+    display: flex;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+.information .container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.info {
+    text-align: center;
+    width: 200px;
+    height: 400px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 200px 50px;
+    box-sizing: border-box;
+    height: 613px;
 }
