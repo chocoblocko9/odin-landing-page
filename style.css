@@ -45,8 +45,6 @@ a {
 }
 
 .bread {
-    width: auto;
-    height: auto;
     border: 5px #3882F6;
     border-style: double;
     border-radius: 10px;
@@ -57,7 +55,6 @@ a {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
-    align-items: stretch;
 }
 
 .top {
@@ -109,6 +106,7 @@ a {
     height: 200px;
     border: 3px solid #3882F6;
     border-radius: 15px;
+    margin-bottom: 8px;
 }
 
 .information .container {
@@ -137,13 +135,7 @@ a {
     background-color: #E5E7EB;
     padding: 200px 350px;
     flex-direction: column;
-}
-
-.author .name {
-    display: flex;
-    color: #1F2937;
-    font-weight: 700;
-    font-size: 24px;
+    font-size: 36px;
 }
 
 .author {
@@ -151,6 +143,9 @@ a {
     gap: 10px;
     justify-content: flex-end;
     align-items: center;
+    color: #1F2937;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .profile {
@@ -182,14 +177,10 @@ a {
     font-weight: 800;
 }
 
-.call .text .header {
+.text .header {
     color: #F9FAF8;
     font-weight: 900;
     font-size: 20px;
-}
-
-.info .subtext {
-    margin-top: 8px;
 }
 
 .footer {
@@ -199,8 +190,4 @@ a {
     align-items: center;
     padding: 50px 50px;
     color: #F9FAF8;
-}
-
-.quote .text{
-    font-size: 36px;
 }
